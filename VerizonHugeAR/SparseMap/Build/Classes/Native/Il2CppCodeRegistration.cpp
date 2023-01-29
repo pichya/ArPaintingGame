@@ -1,0 +1,221 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+#include "il2cpp-class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+
+extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[];
+extern const Il2CppMethodPointer g_Il2CppGenericMethodPointers[];
+extern const Il2CppMethodPointer g_Il2CppGenericAdjustorThunks[];
+extern const InvokerMethod g_Il2CppInvokerPointers[];
+extern const CustomAttributesCacheGenerator g_AttributeGenerators[];
+extern const Il2CppMethodPointer g_UnresolvedVirtualMethodPointers[];
+extern Il2CppInteropData g_Il2CppInteropData[];
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlibCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_ConfigurationCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Mono_SecurityCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_XmlCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_SystemCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_CoreCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SharedInternalsModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_CoreModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AssetBundleModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AudioModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ImageConversionModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestAssetBundleModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Diagnostics_StackTraceCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_Globalization_ExtensionsCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_IO_CompressionCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_System_NumericsCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_AnimationModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_GameCenterModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_IMGUIModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_InputLegacyModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_JSONSerializeModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_ParticleSystemModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_Physics2DModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_PhysicsModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_VideoModuleCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngineCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_netstandardCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Photon3Unity3DCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonRealtimeCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UICodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworkingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UniRx_AsyncCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Subsystem_RegistrationCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_SenseCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonChatCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_UtilitiesCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UniRxCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARSubsystemsCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ManagementCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_Camera_CustomCameraCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_Camera_VideoCameraCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_Eyewear_ImageTrackingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_FrameRecordingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_CloudRecognitionCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_Coloring3DCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_MotionExtendCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_TargetOnTheFlyCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_TargetsCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ImageTracking_VideoCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MapBuilding_SparseCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MapBuilding_Sparse_DenseCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MapLocalizing_SparseCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MotionTrackingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MotionTracking_ImageTargetCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MultiTarget_MultiTrackerCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MultiTarget_MultiTypeCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MultiTarget_SameImageCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_MultiTarget_SingleTrackerCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_ObjectTrackingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_SpatialMap_Dense_BallGameCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_SpatialMap_SparseSpatialMapCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_SpatialMap_Sparse_ImageTargetCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_SurfaceTrackingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_SurfaceTracking_ImageTargetCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_EasyAR_Sense_Sample_VideoRecordingCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_PhotonUnityNetworking_DemosCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARKitCodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
+extern const Il2CppCodeGenModule* g_CodeGenModules[];
+const Il2CppCodeGenModule* g_CodeGenModules[73] = 
+{
+	(&g_mscorlibCodeGenModule),
+	(&g_System_ConfigurationCodeGenModule),
+	(&g_Mono_SecurityCodeGenModule),
+	(&g_System_XmlCodeGenModule),
+	(&g_SystemCodeGenModule),
+	(&g_System_CoreCodeGenModule),
+	(&g_UnityEngine_SharedInternalsModuleCodeGenModule),
+	(&g_UnityEngine_CoreModuleCodeGenModule),
+	(&g_UnityEngine_AssetBundleModuleCodeGenModule),
+	(&g_UnityEngine_UnityWebRequestModuleCodeGenModule),
+	(&g_UnityEngine_AudioModuleCodeGenModule),
+	(&g_UnityEngine_ImageConversionModuleCodeGenModule),
+	(&g_UnityEngine_TextRenderingModuleCodeGenModule),
+	(&g_UnityEngine_UnityWebRequestAssetBundleModuleCodeGenModule),
+	(&g_System_Diagnostics_StackTraceCodeGenModule),
+	(&g_System_Globalization_ExtensionsCodeGenModule),
+	(&g_System_IO_CompressionCodeGenModule),
+	(&g_System_NumericsCodeGenModule),
+	(&g_UnityEngine_AnimationModuleCodeGenModule),
+	(&g_UnityEngine_GameCenterModuleCodeGenModule),
+	(&g_UnityEngine_IMGUIModuleCodeGenModule),
+	(&g_UnityEngine_InputLegacyModuleCodeGenModule),
+	(&g_UnityEngine_JSONSerializeModuleCodeGenModule),
+	(&g_UnityEngine_ParticleSystemModuleCodeGenModule),
+	(&g_UnityEngine_Physics2DModuleCodeGenModule),
+	(&g_UnityEngine_PhysicsModuleCodeGenModule),
+	(&g_UnityEngine_SubsystemsModuleCodeGenModule),
+	(&g_UnityEngine_UIModuleCodeGenModule),
+	(&g_UnityEngine_UnityWebRequestWWWModuleCodeGenModule),
+	(&g_UnityEngine_VideoModuleCodeGenModule),
+	(&g_UnityEngineCodeGenModule),
+	(&g_netstandardCodeGenModule),
+	(&g_Photon3Unity3DCodeGenModule),
+	(&g_PhotonRealtimeCodeGenModule),
+	(&g_UnityEngine_UICodeGenModule),
+	(&g_PhotonUnityNetworkingCodeGenModule),
+	(&g_UniRx_AsyncCodeGenModule),
+	(&g_Unity_Subsystem_RegistrationCodeGenModule),
+	(&g_EasyAR_SenseCodeGenModule),
+	(&g_PhotonChatCodeGenModule),
+	(&g_PhotonUnityNetworking_UtilitiesCodeGenModule),
+	(&g_UniRxCodeGenModule),
+	(&g_Unity_XR_ARSubsystemsCodeGenModule),
+	(&g_Unity_XR_ManagementCodeGenModule),
+	(&g_EasyAR_Sense_Sample_Camera_CustomCameraCodeGenModule),
+	(&g_EasyAR_Sense_Sample_Camera_VideoCameraCodeGenModule),
+	(&g_EasyAR_Sense_Sample_Eyewear_ImageTrackingCodeGenModule),
+	(&g_EasyAR_Sense_Sample_FrameRecordingCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ImageTracking_CloudRecognitionCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ImageTracking_Coloring3DCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ImageTracking_MotionExtendCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ImageTracking_TargetOnTheFlyCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ImageTracking_TargetsCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ImageTracking_VideoCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MapBuilding_SparseCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MapBuilding_Sparse_DenseCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MapLocalizing_SparseCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MotionTrackingCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MotionTracking_ImageTargetCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MultiTarget_MultiTrackerCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MultiTarget_MultiTypeCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MultiTarget_SameImageCodeGenModule),
+	(&g_EasyAR_Sense_Sample_MultiTarget_SingleTrackerCodeGenModule),
+	(&g_EasyAR_Sense_Sample_ObjectTrackingCodeGenModule),
+	(&g_EasyAR_Sense_Sample_SpatialMap_Dense_BallGameCodeGenModule),
+	(&g_EasyAR_Sense_Sample_SpatialMap_SparseSpatialMapCodeGenModule),
+	(&g_EasyAR_Sense_Sample_SpatialMap_Sparse_ImageTargetCodeGenModule),
+	(&g_EasyAR_Sense_Sample_SurfaceTrackingCodeGenModule),
+	(&g_EasyAR_Sense_Sample_SurfaceTracking_ImageTargetCodeGenModule),
+	(&g_EasyAR_Sense_Sample_VideoRecordingCodeGenModule),
+	(&g_PhotonUnityNetworking_DemosCodeGenModule),
+	(&g_Unity_XR_ARKitCodeGenModule),
+	(&g_AssemblyU2DCSharpCodeGenModule),
+};
+extern const Il2CppCodeRegistration g_CodeRegistration;
+const Il2CppCodeRegistration g_CodeRegistration = 
+{
+	44,
+	g_ReversePInvokeWrapperPointers,
+	36578,
+	g_Il2CppGenericMethodPointers,
+	g_Il2CppGenericAdjustorThunks,
+	6858,
+	g_Il2CppInvokerPointers,
+	8328,
+	g_AttributeGenerators,
+	1410,
+	g_UnresolvedVirtualMethodPointers,
+	350,
+	g_Il2CppInteropData,
+	0,
+	NULL,
+	73,
+	g_CodeGenModules,
+};
+IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
+static const Il2CppCodeGenOptions s_Il2CppCodeGenOptions = 
+{
+	true,
+	7,
+};
+void s_Il2CppCodegenRegistration()
+{
+	il2cpp_codegen_register (&g_CodeRegistration, &g_MetadataRegistration, &s_Il2CppCodeGenOptions);
+}
+#if RUNTIME_IL2CPP
+static il2cpp::utils::RegisterRuntimeInitializeAndCleanup s_Il2CppCodegenRegistrationVariable (&s_Il2CppCodegenRegistration, NULL);
+#endif
